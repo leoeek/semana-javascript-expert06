@@ -1,0 +1,33 @@
+{
+  "name": "semana-javascript-expert06",
+  "version": "1.0.0",
+  "description": "Welcome to the sixth Javascript Expert Week. This is the starting code to start our journey.",
+  "main": "demo.js",
+  "type": "module",
+  "engines": {
+    "node": "17"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "live-reload": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickWendel/semana-javascript-expert06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErickWendel/semana-javascript-expert06/issues"
+  },
+  "homepage": "https://github.com/ErickWendel/semana-javascript-expert06#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "pino": "^7.8.0",
+    "pino-pretty": "^7.5.3"
+  }
+}
